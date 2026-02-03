@@ -1,0 +1,38 @@
+Public class Triangle extends Geometric Object {
+    private double Side1ide1 = 1.0;
+    private double side2ide2 = 1.0;
+    private double side3ide3 = 1.0;
+
+    public Triangle () {
+    }
+    public Triangle (double side1, double side2, double side3) {
+        this.Side1 = side1;
+        this.side2 = side2; 
+        this.side3 = side3;
+    }
+    
+    public double get side 1 () {
+        return side1;
+    }
+    public double get side 2 () {
+        return side2;
+    }
+    public double get side 3 () {
+        return side3;
+    }
+    public double get area () {
+        double s = getPerimeter () / 2;
+        return Math.sqrt(s*(s-side1)*(s-sideZ) * (s-side3));
+    }
+    public double getPerimeter () {
+        return side1 + side2 + side3;
+
+    }    
+
+    @override
+    public string toString () {
+        return "triangle: side1 = " + side1 +
+               "side2 = " + side2 +
+               "side3 = " + side3;
+    }
+}    
